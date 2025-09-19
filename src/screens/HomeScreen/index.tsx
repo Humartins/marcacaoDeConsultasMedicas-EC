@@ -3,15 +3,12 @@ import { FlatList, RefreshControl } from 'react-native';
 import { Button } from 'react-native-elements';
 import { FontAwesome } from '@expo/vector-icons';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-
 // Componentes locais
 import Header from '../../components/Header';
 import AppointmentCard from './components/AppointmentCard';
 import EmptyState from './components/EmptyState';
-
 // Hooks customizados
 import { useHomeScreen } from './hooks/useHomeScreen';
-
 // Estilos
 import { 
   Container, 
@@ -20,7 +17,6 @@ import {
   TitleContainer, 
   Title 
 } from './styles';
-
 // Tipos
 import { RootStackParamList } from '../../types/navigation';
 import { Appointment } from '../../types/appointments';
